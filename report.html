@@ -50,11 +50,11 @@ a {
 <table>
 <tr>
 <td>result:</td>
-<td>passed</td>
+<td>failed</td>
 </tr>
 <tr>
 <td>totalTime:</td>
-<td>9</td>
+<td>71</td>
 </tr>
 <tr>
 <td>numTestTotal:</td>
@@ -62,11 +62,11 @@ a {
 </tr>
 <tr>
 <td>numTestPasses:</td>
-<td>4</td>
+<td>3</td>
 </tr>
 <tr>
 <td>numTestFailures:</td>
-<td>0</td>
+<td>1</td>
 </tr>
 <tr>
 <td>numCommandPasses:</td>
@@ -74,7 +74,7 @@ a {
 </tr>
 <tr>
 <td>numCommandFailures:</td>
-<td>0</td>
+<td>1</td>
 </tr>
 <tr>
 <td>numCommandErrors:</td>
@@ -90,11 +90,11 @@ a {
 </tr>
 <tr>
 <td>
-<table id="suiteTable" class="selenium" cellspacing="1" cellpadding="1" border="1"><tbody>
-<tr class="title status_passed"><td><b>Test Suite</b></td></tr>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr class="title status_failed"><td><b>Test Suite</b></td></tr>
 <tr class="  status_passed"><td><a href="#testresult0">Login</a></td></tr>
 <tr class="  status_passed"><td><a href="#testresult1">Create_coupon</a></td></tr>
-<tr class="  status_passed"><td><a href="#testresult2">Search_delete_coupon</a></td></tr>
+<tr class="  status_failed"><td><a href="#testresult2">Search_delete_coupon</a></td></tr>
 <tr class="  status_passed"><td><a href="#testresult3">Logout</a></td></tr>
 </tbody></table>
 
@@ -104,31 +104,31 @@ a {
 </tr>
 </table><table><tr>
 <td><a name="testresult0">Login.html</a><br/><div>
-<table cellspacing="1" cellpadding="1" border="1">
+<table cellpadding="1" cellspacing="1" border="1">
 <thead>
 <tr class="title status_passed"><td rowspan="1" colspan="3">Login</td></tr>
 </thead><tbody>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>open</td>
 	<td>/oc-panel/auth/login/</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>type</td>
 	<td>css=section#page input[name='email']</td>
 	<td>demo@open-eshop.com</td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>type</td>
 	<td>css=section#page input[name='password']</td>
 	<td>demo</td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>click</td>
 	<td>css=section#page button[type='submit']</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>waitForElementPresent</td>
 	<td>link=Panel</td>
 	<td></td>
@@ -140,61 +140,61 @@ a {
 <td>&nbsp;</td>
 </tr><tr>
 <td><a name="testresult1">Create_coupon.html</a><br/><div>
-<table cellspacing="1" cellpadding="1" border="1">
+<table cellpadding="1" cellspacing="1" border="1">
 <thead>
 <tr class="title status_passed"><td rowspan="1" colspan="3">Create_coupon</td></tr>
 </thead><tbody>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>open</td>
 	<td>/oc-panel/</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>click</td>
 	<td>css=span:contains('eShop')</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>click</td>
 	<td>css=div#collapseOne a[title='Coupons']</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>waitForElementPresent</td>
 	<td>css=p.well</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>click</td>
 	<td>css=a.btn-primary</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>waitForText</td>
 	<td>link=Fixed Discount</td>
 	<td>Fixed Discount</td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>click</td>
 	<td>id=name</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>type</td>
 	<td>id=name</td>
 	<td>Davay_25</td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>type</td>
 	<td>name=valid_date</td>
 	<td>2018-03-01</td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>click</td>
 	<td>name=submit</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>waitForElementPresent</td>
 	<td>css=div#content td:contains('Davay_25')</td>
 	<td>Davay_25</td>
@@ -206,59 +206,59 @@ a {
 <td>&nbsp;</td>
 </tr><tr>
 <td><a name="testresult2">Search_delete_coupon.html</a><br/><div>
-<table cellspacing="1" cellpadding="1" border="1">
+<table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr class="title status_passed"><td rowspan="1" colspan="3">Search_delete_coupon</td></tr>
+<tr class="title status_failed"><td rowspan="1" colspan="3">Search_delete_coupon</td></tr>
 </thead><tbody>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>open</td>
 	<td>/oc-panel/coupon</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>sendKeys</td>
 	<td>name=name</td>
 	<td>Davay_25</td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>click</td>
 	<td>css=form.pull-right button.btn</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>pause</td>
 	<td>500</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>waitForElementPresent</td>
 	<td>css=i.glyphicon-trash</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>mouseOver</td>
 	<td>css=i.glyphicon-trash</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>click</td>
 	<td>css=i.glyphicon-trash</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>waitForElementPresent</td>
 	<td>css=div.visible</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>click</td>
 	<td>css=div.visible &gt; button.confirm</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_failed" style="cursor: pointer;">
 	<td>waitForTextNotPresent</td>
 	<td>Davay_25</td>
-	<td></td>
+	<td>Timed&nbsp;out&nbsp;after&nbsp;30000ms</td>
 </tr>
 </tbody></table>
 
@@ -267,26 +267,26 @@ a {
 <td>&nbsp;</td>
 </tr><tr>
 <td><a name="testresult3">Logout.html</a><br/><div>
-<table cellspacing="1" cellpadding="1" border="1">
+<table cellpadding="1" cellspacing="1" border="1">
 <thead>
 <tr class="title status_passed"><td rowspan="1" colspan="3">Logout</td></tr>
 </thead><tbody>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>open</td>
 	<td>/oc-panel/coupon</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>click</td>
 	<td>css=span.caret</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>click</td>
 	<td>link=Logout</td>
 	<td></td>
 </tr>
-<tr style="cursor: pointer;" class="  status_done">
+<tr class="  status_done" style="cursor: pointer;">
 	<td>waitForText</td>
 	<td>css=section#page h1</td>
 	<td>Login</td>
@@ -301,27 +301,28 @@ info: Starting test /selenium-server/tests/Login.html
 info: Executing: |open | /oc-panel/auth/login/ |  |
 info: Executing: |type | css=section#page input[name=&apos;email&apos;] | demo@open-eshop.com |
 info: Executing: |type | css=section#page input[name=&apos;password&apos;] | demo |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
 info: Executing: |click | css=section#page button[type=&apos;submit&apos;] |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
 info: Executing: |waitForElementPresent | link=Panel |  |
 info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
 info: Starting test /selenium-server/tests/Create_coupon.html
 info: Executing: |open | /oc-panel/ |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
 info: Executing: |click | css=span:contains(&apos;eShop&apos;) |  |
-info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
 info: Executing: |click | css=div#collapseOne a[title=&apos;Coupons&apos;] |  |
-info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
 info: Executing: |waitForElementPresent | css=p.well |  |
 info: Executing: |click | css=a.btn-primary |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
 info: Executing: |waitForText | link=Fixed Discount | Fixed Discount |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
 info: Executing: |click | id=name |  |
 info: Executing: |type | id=name | Davay_25 |
 info: Executing: |type | name=valid_date | 2018-03-01 |
 info: Executing: |click | name=submit |  |
 info: Executing: |waitForElementPresent | css=div#content td:contains(&apos;Davay_25&apos;) | Davay_25 |
-info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
 info: Starting test /selenium-server/tests/Search_delete_coupon.html
 info: Executing: |open | /oc-panel/coupon |  |
-info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
 info: Executing: |sendKeys | name=name | Davay_25 |
 info: Executing: |click | css=form.pull-right button.btn |  |
 info: Executing: |pause | 500 |  |
@@ -331,9 +332,11 @@ info: Executing: |click | css=i.glyphicon-trash |  |
 info: Executing: |waitForElementPresent | css=div.visible |  |
 info: Executing: |click | css=div.visible &gt; button.confirm |  |
 info: Executing: |waitForTextNotPresent | Davay_25 |  |
+warn: currentTest.recordFailure: Timed out after 30000ms
 info: Starting test /selenium-server/tests/Logout.html
 info: Executing: |open | /oc-panel/coupon |  |
 info: Executing: |click | css=span.caret |  |
 info: Executing: |click | link=Logout |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
 info: Executing: |waitForText | css=section#page h1 | Login |
 </pre></body></html>
